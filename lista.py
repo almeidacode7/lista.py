@@ -1,66 +1,82 @@
 # Exercício 1
 
-# numeros =[]
+numeros =[]
 
-# for i in range(1,20):
-#     numeros.append(i)
+for i in range(1,20):
+    numeros.append(i)
 
-# print(numeros)
+print(numeros)
 
 # Exercício 2
 
-# lista = [10, 20, 30]
+lista = [10, 20, 30]
 
-# print('inicio da lista',lista)
-# lista.insert(0,1)
-# print('inserindo com insert',lista)
+print('inicio da lista',lista)
+lista.insert(0,1)
+print('inserindo com insert',lista)
 
 
-# lista.append(7)
-# print('inserindo com append',lista)
+lista.append(7)
+print('inserindo com append',lista)
 
 # Exercício 3
 
-# lista = ['a', 'b' ,'c']
+lista = ['a', 'b' ,'c']
 
 
-# lista[1] = 'x' 
+lista[1] = 'x' 
 
-# print(lista)
+print(lista)
 
 # Exercício 4
 
-# lista = [5, 10, 15, 20]
-# del lista[2] 
-# print(lista)
+lista = [5, 10, 15, 20]
+del lista[2] 
+print(lista)
 
 # Exercício 5 
 
-# lista = ['maçã', 'banana', 'laranja']
-# lista.remove("banana")
-# print(lista)
+lista = ['maçã', 'banana', 'laranja']
+lista.remove("banana")
+print(lista)
 
 # Exercício 6
 
-# lista = [100, 200, 300, 400]
-# teste=  lista.pop(3)
-# print(teste)
+lista = [100, 200, 300, 400]
+teste=  lista.pop(3)
+print(teste)
 
 # Exercício 7
 
-# lista = ['python', 'java', 'c++']
+lista = ['python', 'java', 'c++']
 
-# teste= lista.pop(1)
-# print(teste)
+teste= lista.pop(1)
+print(teste)
 
 # Exercício 8
 
-# lista = [1, 2, 3, 4, 5]
+lista = [1, 2, 3, 4, 5]
 
-# lista.clear()
-# print(lista)
+lista.clear()
+print(lista)
 
 # Exercício 9
 
 lista = ['a', 'b', 'd']
-lista.insert
+lista.insert(2, 'c')
+lista.remove('a')
+print(lista)
+
+# Exercício 10
+
+lista = [10, 20, 30, 40, 50]
+
+lista.insert(5, 60)
+lista.insert(1, 15)
+lista.remove(30)
+
+n1 = lista.pop(4)
+
+
+print(lista)
+print(n1)
